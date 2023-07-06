@@ -98,8 +98,8 @@ if ($nextMonth == 13) {
 
 // Navigation für den Kalender
 echo "<br>";
-echo "<div class=\"navigation\"><a href='index.php?month=$previousMonth&year=$previousYear'>&lt; Vorheriger Monat</a> | ";
-echo "<a href='index.php?month=$nextMonth&year=$nextYear'>Nächster Monat &gt;</a></div>";
+echo "<div class=\"navigation\"><a href='index.php?month=$previousMonth&year=$previousYear'>&lt; Previous Month</a> | ";
+echo "<a href='index.php?month=$nextMonth&year=$nextYear'>Next Month &gt;</a></div>";
 
 // Datenbankverbindung schließen
 $database->close();
